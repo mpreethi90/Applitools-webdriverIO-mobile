@@ -1,0 +1,210 @@
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"alwaysMatch":{"unicodeKeyboard":true,"resetKeyboard":true,"browserName":"","deviceName":"iPhone 11","platformVersion":"14.5","platformName":"iOS","app":"./apps/wdioNativeDemoApp.app","automationName":"XCUITest","noReset":true,"locationServicesEnabled":true,"locationServicesAuthorized":true,"recordLogs":false,"recordScreenshots":false,"name":"login.feature"},"firstMatch":[{}]},"desiredCapabilities":{"unicodeKeyboard":true,"resetKeyboard":true,"browserName":"","deviceName":"iPhone 11","platformVersion":"14.5","platformName":"iOS","app":"./apps/wdioNativeDemoApp.app","automationName":"XCUITest","noReset":true,"locationServicesEnabled":true,"locationServicesAuthorized":true,"recordLogs":false,"recordScreenshots":false,"name":"login.feature"}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"unicodeKeyboard":true,"resetKeyboard":true,"browserName":"","deviceName":"iPhone 11","platformVersion":"14.5","platformName":"iOS","app":"./apps/wdioNativeDemoApp.app","automationName":"XCUITest","noReset":true,"locationServicesEnabled":true,"locationServicesAuthorized":true,"recordLogs":false,"recordScreenshots":false,"name":"login.feature"},null,{"alwaysMatch":{"unicodeKeyboard":true,"resetKeyboard":true,"browserName":"","deviceName":"iPhone 11","platformVersion":"14.5","platformName":"iOS","app":"./apps/wdioNativeDemoApp.app","automationName":"XCUITest","noReset":true,"locationServicesEnabled":true,"locationServicesAuthorized":true,"recordLogs":false,"recordScreenshots":false,"name":"login.feature"},"firstMatch":[{}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1626837976589 (11:26:16 GMT+0800 (Singapore Standard Time))
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   unicodeKeyboard
+[35m[BaseDriver][39m   resetKeyboard
+[35m[BaseDriver][39m   deviceName
+[35m[BaseDriver][39m   platformVersion
+[35m[BaseDriver][39m   app
+[35m[BaseDriver][39m   automationName
+[35m[BaseDriver][39m   noReset
+[35m[BaseDriver][39m   locationServicesEnabled
+[35m[BaseDriver][39m   locationServicesAuthorized
+[35m[BaseDriver][39m   recordLogs
+[35m[BaseDriver][39m   recordScreenshots
+[35m[BaseDriver][39m   name
+[35m[BaseDriver][39m   nativeInstrumentsLib
+[35m[Appium][39m Appium v1.21.0 creating new XCUITestDriver (v3.43.0) session
+[debug] [35m[Appium][39m There are no active sessions for cleanup
+[35m[Appium][39m Explicitly enabling use of insecure features:
+[35m[Appium][39m     adb_shell
+[debug] [35m[BaseDriver][39m W3C capabilities and MJSONWP desired capabilities were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {
+[debug] [35m[BaseDriver][39m   "alwaysMatch": {
+[debug] [35m[BaseDriver][39m     "appium:unicodeKeyboard": true,
+[debug] [35m[BaseDriver][39m     "appium:resetKeyboard": true,
+[debug] [35m[BaseDriver][39m     "browserName": "",
+[debug] [35m[BaseDriver][39m     "appium:deviceName": "iPhone 11",
+[debug] [35m[BaseDriver][39m     "appium:platformVersion": "14.5",
+[debug] [35m[BaseDriver][39m     "platformName": "iOS",
+[debug] [35m[BaseDriver][39m     "appium:app": "./apps/wdioNativeDemoApp.app",
+[debug] [35m[BaseDriver][39m     "appium:automationName": "XCUITest",
+[debug] [35m[BaseDriver][39m     "appium:noReset": true,
+[debug] [35m[BaseDriver][39m     "appium:locationServicesEnabled": true,
+[debug] [35m[BaseDriver][39m     "appium:locationServicesAuthorized": true,
+[debug] [35m[BaseDriver][39m     "appium:recordLogs": false,
+[debug] [35m[BaseDriver][39m     "appium:recordScreenshots": false,
+[debug] [35m[BaseDriver][39m     "appium:name": "login.feature",
+[debug] [35m[BaseDriver][39m     "appium:nativeInstrumentsLib": true
+[debug] [35m[BaseDriver][39m   },
+[debug] [35m[BaseDriver][39m   "firstMatch": [
+[debug] [35m[BaseDriver][39m     {}
+[debug] [35m[BaseDriver][39m   ]
+[debug] [35m[BaseDriver][39m }
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   unicodeKeyboard
+[35m[BaseDriver][39m   resetKeyboard
+[35m[BaseDriver][39m   recordLogs
+[35m[BaseDriver][39m   recordScreenshots
+[35m[BaseDriver][39m   name
+[35m[BaseDriver][39m Session created with session id: c34a4b63-361b-4207-a3aa-de99ef1d17d2
+[debug] [35m[XCUITest][39m Current user: 'preethi'
+[35m[XCUITest][39m iOS SDK Version set to '14.5'
+[35m[iOSSim][39m Constructing iOS simulator for Xcode version 12.5.1 with udid 'DDB5E61D-960C-4E75-AA7B-B8A886F22631'
+[35m[XCUITest][39m Determining device to run tests on: udid: 'DDB5E61D-960C-4E75-AA7B-B8A886F22631', real device: false
+[debug] [35m[BaseDriver][39m Event 'xcodeDetailsRetrieved' logged at 1626837977894 (11:26:17 GMT+0800 (Singapore Standard Time))
+[35m[BaseDriver][39m Using local app './apps/wdioNativeDemoApp.app'
+[35m[BaseDriver][39m The current application path './apps/wdioNativeDemoApp.app' is not absolute and has been rewritten to '/Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/apps/wdioNativeDemoApp.app'. Consider using absolute paths rather than relative
+[debug] [35m[BaseDriver][39m Event 'appConfigured' logged at 1626837977897 (11:26:17 GMT+0800 (Singapore Standard Time))
+[debug] [35m[XCUITest][39m Checking whether app '/Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/apps/wdioNativeDemoApp.app' is actually present on file system
+[debug] [35m[XCUITest][39m App is present
+[debug] [35m[iOS][39m Getting bundle ID from app '/Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/apps/wdioNativeDemoApp.app': 'org.wdioNativeDemoApp'
+[debug] [35m[BaseDriver][39m Event 'resetStarted' logged at 1626837977899 (11:26:17 GMT+0800 (Singapore Standard Time))
+[debug] [35m[XCUITest][39m Reset: noReset is on. Leaving simulator as is
+[debug] [35m[BaseDriver][39m Event 'resetComplete' logged at 1626837977899 (11:26:17 GMT+0800 (Singapore Standard Time))
+[35m[WebDriverAgent][39m Using WDA path: '/Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/node_modules/appium/node_modules/appium-webdriveragent'
+[35m[WebDriverAgent][39m Using WDA agent: '/Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[debug] [35m[IOSSimulatorLog][39m Starting log capture for iOS Simulator with udid 'DDB5E61D-960C-4E75-AA7B-B8A886F22631' using simctl
+[debug] [35m[BaseDriver][39m Event 'logCaptureStarted' logged at 1626837979183 (11:26:19 GMT+0800 (Singapore Standard Time))
+[35m[XCUITest][39m Setting up simulator
+[debug] [35m[iOS][39m No reason to set locale
+[debug] [35m[iOS][39m Setting iOS and app preferences
+[debug] [35m[iOSSim][39m Checking whether simulator has been run before: yes
+[debug] [35m[iOS][39m Setting location services to 1
+[debug] [35m[iOS][39m Authorizing location services for app
+[debug] [35m[iOSSim][39m Updating location client file: /Users/preethi/Library/Developer/CoreSimulator/Devices/DDB5E61D-960C-4E75-AA7B-B8A886F22631/data/Library/Caches/locationd/clients.plist
+[debug] [35m[iOS][39m Setting did not need to be updated
+[debug] [35m[iOSSim][39m Setting preferences of DDB5E61D-960C-4E75-AA7B-B8A886F22631 Simulator to {"ConnectHardwareKeyboard":false}
+[debug] [35m[iOSSim][39m Setting common Simulator preferences to {"RotateWindowWhenSignaledByGuest":true,"ConnectHardwareKeyboard":false,"PasteboardAutomaticSync":false}
+[debug] [35m[iOSSim][39m Updated DDB5E61D-960C-4E75-AA7B-B8A886F22631 Simulator preferences at '/Users/preethi/Library/Preferences/com.apple.iphonesimulator.plist' with {"RotateWindowWhenSignaledByGuest":true,"ConnectHardwareKeyboard":false,"PasteboardAutomaticSync":false,"DevicePreferences":{"DDB5E61D-960C-4E75-AA7B-B8A886F22631":{"ConnectHardwareKeyboard":false,"SimulatorExternalDisplay":2114,"SimulatorWindowGeometry":{"E2729492-0E1F-4B62-B9BA-569200F7DD99":{"WindowCenter":"{720, 471.5}","WindowScale":0.7704402515723271}},"SimulatorWindowOrientation":"Portrait","SimulatorWindowRotationAngle":0,"ChromeTint":""}}}
+[debug] [35m[iOSSim][39m Got Simulator UI client PID: 42851
+[35m[iOSSim][39m Both Simulator with UDID 'DDB5E61D-960C-4E75-AA7B-B8A886F22631' and the UI client are currently running
+[debug] [35m[BaseDriver][39m Event 'simStarted' logged at 1626837979593 (11:26:19 GMT+0800 (Singapore Standard Time))
+[debug] [35m[XCUITest][39m Verifying application platform
+[debug] [35m[XCUITest][39m CFBundleSupportedPlatforms: ["iPhoneSimulator"]
+[debug] [35m[XCUITest][39m App 'org.wdioNativeDemoApp' is already installed. No need to reinstall.
+[debug] [35m[BaseDriver][39m Event 'appInstalled' logged at 1626837979776 (11:26:19 GMT+0800 (Singapore Standard Time))
+[debug] [35m[WebDriverAgent][39m No obsolete cached processes from previous WDA sessions listening on port 8100 have been found
+[35m[DevCon Factory][39m Requesting connection for device DDB5E61D-960C-4E75-AA7B-B8A886F22631 on local port 8100
+[debug] [35m[DevCon Factory][39m Cached connections count: 0
+[35m[DevCon Factory][39m Successfully requested the connection for DDB5E61D-960C-4E75-AA7B-B8A886F22631:8100
+[debug] [35m[XCUITest][39m Starting WebDriverAgent initialization with the synchronization key 'XCUITestDriver'
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":{"message":"WebDriverAgent is ready to accept commands","state":"success","os":{"testmanagerdVersion":28,"name":"iOS","sdkVersion":"14.5","version":"14.5"},"ios":{"simulatorVersion":"14.5","ip":"192.168.1.121"},"ready":true,"build":{"upgradedAt":"1626419333929","time":"Jul 21 2021 09:34:45","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"}},"sessionId":null}
+[debug] [35m[WebDriverAgent][39m Upgrade timestamp of the currently bundled WDA: 1626419333929
+[debug] [35m[WebDriverAgent][39m Upgrade timestamp of the WDA on the device: 1626419333929
+[35m[WebDriverAgent][39m Will reuse previously cached WDA instance at 'http://127.0.0.1:8100/' with 'com.facebook.WebDriverAgentRunner'. Set the wdaLocalPort capability to a value different from 8100 if this is an undesired behavior.
+[debug] [35m[XCUITest][39m Trying to start WebDriverAgent 2 times with 10000ms interval
+[debug] [35m[XCUITest][39m These values can be customized by changing wdaStartupRetries/wdaStartupRetryInterval capabilities
+[debug] [35m[BaseDriver][39m Event 'wdaStartAttempted' logged at 1626837979929 (11:26:19 GMT+0800 (Singapore Standard Time))
+[35m[WebDriverAgent][39m Using provided WebdriverAgent at 'http://127.0.0.1:8100/'
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":{"message":"WebDriverAgent is ready to accept commands","state":"success","os":{"testmanagerdVersion":28,"name":"iOS","sdkVersion":"14.5","version":"14.5"},"ios":{"simulatorVersion":"14.5","ip":"192.168.1.121"},"ready":true,"build":{"upgradedAt":"1626419333929","time":"Jul 21 2021 09:34:45","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"}},"sessionId":null}
+[debug] [35m[BaseDriver][39m Event 'wdaSessionAttempted' logged at 1626837979934 (11:26:19 GMT+0800 (Singapore Standard Time))
+[debug] [35m[XCUITest][39m Sending createSession command to WDA
+[debug] [35m[WD Proxy][39m Matched '/session' to command name 'createSession'
+[debug] [35m[WD Proxy][39m Proxying [POST /session] to [POST http://127.0.0.1:8100/session] with body: {"capabilities":{"firstMatch":[{"bundleId":"org.wdioNativeDemoApp","arguments":[],"environment":{},"eventloopIdleDelaySec":0,"shouldWaitForQuiescence":true,"shouldUseTestManagerForVisibilityDetection":false,"maxTypingFrequency":60,"shouldUseSingletonTestManager":true,"shouldTerminateApp":true}],"alwaysMatch":{}}}
+[debug] [35m[WebDriverAgent][39m Parsed BUILD_DIR configuration value: '/Users/preethi/Library/Developer/Xcode/DerivedData/WebDriverAgent-dqspdpcvscsgfocexlfzswzehben/Build/Products'
+[debug] [35m[WebDriverAgent][39m Got derived data root: '/Users/preethi/Library/Developer/Xcode/DerivedData/WebDriverAgent-dqspdpcvscsgfocexlfzswzehben'
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":{"sessionId":"8B386E04-6286-4222-825A-A2153BEDF94A","capabilities":{"device":"iphone","browserName":"wdioDemoApp","sdkVersion":"14.5","CFBundleIdentifier":"org.wdioNativeDemoApp"}},"sessionId":"8B386E04-6286-4222-825A-A2153BEDF94A"}
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[debug] [35m[BaseDriver][39m Event 'wdaSessionStarted' logged at 1626837985478 (11:26:25 GMT+0800 (Singapore Standard Time))
+[debug] [35m[BaseDriver][39m Event 'wdaStarted' logged at 1626837985478 (11:26:25 GMT+0800 (Singapore Standard Time))
+[35m[XCUITest][39m Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+[debug] [35m[BaseDriver][39m Event 'orientationSet' logged at 1626837985478 (11:26:25 GMT+0800 (Singapore Standard Time))
+[debug] [35m[BaseDriver][39m The value of 'elementResponseAttributes' setting did not change. Skipping the update for it
+[debug] [35m[BaseDriver][39m The value of 'shouldUseCompactResponses' setting did not change. Skipping the update for it
+[35m[Appium][39m New XCUITestDriver session created successfully, session c34a4b63-361b-4207-a3aa-de99ef1d17d2 added to master session list
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1626837985479 (11:26:25 GMT+0800 (Singapore Standard Time))
+[debug] [35m[W3C (c34a4b63)][39m Cached the protocol value 'W3C' for the new session c34a4b63-361b-4207-a3aa-de99ef1d17d2
+[debug] [35m[W3C (c34a4b63)][39m Responding to client with driver.createSession() result: {"capabilities":{"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"platformName":"iOS","unicodeKeyboard":true,"resetKeyboard":true,"deviceName":"iPhone 11","platformVersion":"14.5","app":"./apps/wdioNativeDemoApp.app","automationName":"XCUITest","noReset":true,"locationServicesEnabled":true,"locationServicesAuthorized":true,"recordLogs":false,"recordScreenshots":false,"name":"login.feature","nativeInstrumentsLib":true,"udid":"DDB5E61D-960C-4E75-AA7B-B8A886F22631"}}
+[35m[HTTP][39m [37m<-- POST /session [39m[32m200[39m [90m8895 ms - 677[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/session/c34a4b63-361b-4207-a3aa-de99ef1d17d2/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (c34a4b63)][39m Calling AppiumDriver.getWindowRect() with args: ["c34a4b63-361b-4207-a3aa-de99ef1d17d2"]
+[debug] [35m[XCUITest][39m Executing command 'getWindowRect'
+[debug] [35m[WD Proxy][39m Proxying [GET /window/size] to [GET http://127.0.0.1:8100/session/8B386E04-6286-4222-825A-A2153BEDF94A/window/size] with no body
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/session/c34a4b63-361b-4207-a3aa-de99ef1d17d2[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (c34a4b63)][39m Calling AppiumDriver.deleteSession() with args: ["c34a4b63-361b-4207-a3aa-de99ef1d17d2"]
+[debug] [35m[BaseDriver][39m Event 'quitSessionRequested' logged at 1626837985712 (11:26:25 GMT+0800 (Singapore Standard Time))
+[35m[Appium][39m Removing session c34a4b63-361b-4207-a3aa-de99ef1d17d2 from our master session list
+[debug] [35m[WD Proxy][39m Matched '/session/c34a4b63-361b-4207-a3aa-de99ef1d17d2' to command name 'deleteSession'
+[debug] [35m[WD Proxy][39m Proxying [DELETE /session/c34a4b63-361b-4207-a3aa-de99ef1d17d2] to [DELETE http://127.0.0.1:8100/session/8B386E04-6286-4222-825A-A2153BEDF94A] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":{"width":414,"height":896},"sessionId":"8B386E04-6286-4222-825A-A2153BEDF94A"}
+[debug] [35m[W3C (c34a4b63)][39m Responding to client with driver.getWindowRect() result: {"width":414,"height":896,"x":0,"y":0}
+[35m[HTTP][39m [37m<-- GET /session/c34a4b63-361b-4207-a3aa-de99ef1d17d2/window/rect [39m[32m200[39m [90m54 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/session/c34a4b63-361b-4207-a3aa-de99ef1d17d2/orientation[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (c34a4b63)][39m Encountered internal error running command: NoSuchDriverError: A session is either terminated or not started
+[debug] [35m[W3C (c34a4b63)][39m     at asyncHandler (/Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:243:15)
+[debug] [35m[W3C (c34a4b63)][39m     at /Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:423:15
+[debug] [35m[W3C (c34a4b63)][39m     at Layer.handle [as handle_request] (/Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)
+[debug] [35m[W3C (c34a4b63)][39m     at next (/Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/node_modules/appium/node_modules/express/lib/router/route.js:137:13)
+[debug] [35m[W3C (c34a4b63)][39m     at Route.dispatch (/Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/node_modules/appium/node_modules/express/lib/router/route.js:112:3)
+[debug] [35m[W3C (c34a4b63)][39m     at Layer.handle [as handle_request] (/Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)
+[debug] [35m[W3C (c34a4b63)][39m     at /Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/node_modules/appium/node_modules/express/lib/router/index.js:281:22
+[debug] [35m[W3C (c34a4b63)][39m     at param (/Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/node_modules/appium/node_modules/express/lib/router/index.js:354:14)
+[debug] [35m[W3C (c34a4b63)][39m     at param (/Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/node_modules/appium/node_modules/express/lib/router/index.js:365:14)
+[debug] [35m[W3C (c34a4b63)][39m     at Function.process_params (/Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/node_modules/appium/node_modules/express/lib/router/index.js:410:3)
+[debug] [35m[W3C (c34a4b63)][39m     at next (/Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/node_modules/appium/node_modules/express/lib/router/index.js:275:10)
+[debug] [35m[W3C (c34a4b63)][39m     at logger (/Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/node_modules/appium/node_modules/morgan/index.js:144:5)
+[debug] [35m[W3C (c34a4b63)][39m     at Layer.handle [as handle_request] (/Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)
+[debug] [35m[W3C (c34a4b63)][39m     at trim_prefix (/Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/node_modules/appium/node_modules/express/lib/router/index.js:317:13)
+[debug] [35m[W3C (c34a4b63)][39m     at /Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/node_modules/appium/node_modules/express/lib/router/index.js:284:7
+[debug] [35m[W3C (c34a4b63)][39m     at Function.process_params (/Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/node_modules/appium/node_modules/express/lib/router/index.js:335:12)
+[debug] [35m[W3C (c34a4b63)][39m     at next (/Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/node_modules/appium/node_modules/express/lib/router/index.js:275:10)
+[debug] [35m[W3C (c34a4b63)][39m     at jsonParser (/Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/node_modules/appium/node_modules/body-parser/lib/types/json.js:110:7)
+[debug] [35m[W3C (c34a4b63)][39m     at Layer.handle [as handle_request] (/Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)
+[debug] [35m[W3C (c34a4b63)][39m     at trim_prefix (/Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/node_modules/appium/node_modules/express/lib/router/index.js:317:13)
+[debug] [35m[W3C (c34a4b63)][39m     at /Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/node_modules/appium/node_modules/express/lib/router/index.js:284:7
+[debug] [35m[W3C (c34a4b63)][39m     at Function.process_params (/Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/node_modules/appium/node_modules/express/lib/router/index.js:335:12)
+[35m[HTTP][39m [37m<-- GET /session/c34a4b63-361b-4207-a3aa-de99ef1d17d2/orientation [39m[33m404[39m [90m29 ms - 3559[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/session/c34a4b63-361b-4207-a3aa-de99ef1d17d2/orientation[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (c34a4b63)][39m Encountered internal error running command: NoSuchDriverError: A session is either terminated or not started
+[debug] [35m[W3C (c34a4b63)][39m     at asyncHandler (/Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:243:15)
+[debug] [35m[W3C (c34a4b63)][39m     at /Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:423:15
+[debug] [35m[W3C (c34a4b63)][39m     at Layer.handle [as handle_request] (/Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)
+[debug] [35m[W3C (c34a4b63)][39m     at next (/Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/node_modules/appium/node_modules/express/lib/router/route.js:137:13)
+[debug] [35m[W3C (c34a4b63)][39m     at Route.dispatch (/Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/node_modules/appium/node_modules/express/lib/router/route.js:112:3)
+[debug] [35m[W3C (c34a4b63)][39m     at Layer.handle [as handle_request] (/Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)
+[debug] [35m[W3C (c34a4b63)][39m     at /Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/node_modules/appium/node_modules/express/lib/router/index.js:281:22
+[debug] [35m[W3C (c34a4b63)][39m     at param (/Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/node_modules/appium/node_modules/express/lib/router/index.js:354:14)
+[debug] [35m[W3C (c34a4b63)][39m     at param (/Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/node_modules/appium/node_modules/express/lib/router/index.js:365:14)
+[debug] [35m[W3C (c34a4b63)][39m     at Function.process_params (/Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/node_modules/appium/node_modules/express/lib/router/index.js:410:3)
+[debug] [35m[W3C (c34a4b63)][39m     at next (/Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/node_modules/appium/node_modules/express/lib/router/index.js:275:10)
+[debug] [35m[W3C (c34a4b63)][39m     at logger (/Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/node_modules/appium/node_modules/morgan/index.js:144:5)
+[debug] [35m[W3C (c34a4b63)][39m     at Layer.handle [as handle_request] (/Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)
+[debug] [35m[W3C (c34a4b63)][39m     at trim_prefix (/Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/node_modules/appium/node_modules/express/lib/router/index.js:317:13)
+[debug] [35m[W3C (c34a4b63)][39m     at /Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/node_modules/appium/node_modules/express/lib/router/index.js:284:7
+[debug] [35m[W3C (c34a4b63)][39m     at Function.process_params (/Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/node_modules/appium/node_modules/express/lib/router/index.js:335:12)
+[debug] [35m[W3C (c34a4b63)][39m     at next (/Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/node_modules/appium/node_modules/express/lib/router/index.js:275:10)
+[debug] [35m[W3C (c34a4b63)][39m     at jsonParser (/Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/node_modules/appium/node_modules/body-parser/lib/types/json.js:110:7)
+[debug] [35m[W3C (c34a4b63)][39m     at Layer.handle [as handle_request] (/Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)
+[debug] [35m[W3C (c34a4b63)][39m     at trim_prefix (/Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/node_modules/appium/node_modules/express/lib/router/index.js:317:13)
+[debug] [35m[W3C (c34a4b63)][39m     at /Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/node_modules/appium/node_modules/express/lib/router/index.js:284:7
+[debug] [35m[W3C (c34a4b63)][39m     at Function.process_params (/Users/preethi/Documents/Github/Applitools-webdriverIO-mobile/node_modules/appium/node_modules/express/lib/router/index.js:335:12)
+[35m[HTTP][39m [37m<-- GET /session/c34a4b63-361b-4207-a3aa-de99ef1d17d2/orientation [39m[33m404[39m [90m2 ms - 3559[39m
+[35m[HTTP][39m [90m[39m
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":null,"sessionId":null}
+[35m[DevCon Factory][39m Releasing connections for DDB5E61D-960C-4E75-AA7B-B8A886F22631 device on any port number
+[35m[DevCon Factory][39m Found cached connections to release: ["DDB5E61D-960C-4E75-AA7B-B8A886F22631:8100"]
+[debug] [35m[DevCon Factory][39m Cached connections count: 0
+[debug] [35m[XCUITest][39m Not clearing log files. Use `clearSystemFiles` capability to turn on.
+[debug] [35m[IOSSimulatorLog][39m Stopping iOS log capture
+[debug] [35m[BaseDriver][39m Event 'quitSessionFinished' logged at 1626837986834 (11:26:26 GMT+0800 (Singapore Standard Time))
+[debug] [35m[W3C (c34a4b63)][39m Received response: null
+[debug] [35m[W3C (c34a4b63)][39m But deleting session, so not returning
+[debug] [35m[W3C (c34a4b63)][39m Responding to client with driver.deleteSession() result: null
+[35m[HTTP][39m [37m<-- DELETE /session/c34a4b63-361b-4207-a3aa-de99ef1d17d2 [39m[32m200[39m [90m1123 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[Appium][39m Received SIGTERM - shutting down
+[debug] [35m[Appium][39m There are no active sessions for cleanup

@@ -1,0 +1,79 @@
+<div class="card">
+	<div class="card-block">
+		<h3 class="card-title {{type}}">
+			{{#showFeatureName}}{{featureName}} - {{/showFeatureName}}{{keyword}}: {{name}}
+		</h3>
+	</div>
+	<div class="card-block">
+		{{#tags}}
+		<a class="btn btn-default btn-xs" href="{{rootFolder}}tags/{{name}}.html">
+			<span class="glyphicon glyphicon-tag" aria-hidden="true"></span>&nbsp;{{name}}
+		</a>
+		{{/tags}}
+	</div>
+	{{#description}}
+	<div class="card-block">
+		{{{.}}}
+	</div>
+	{{/description}}
+	<div class="card-block">
+		<!-- Steps -->
+		<div class="container">
+			{{#steps}}
+			<div class="row">
+				<div class="col-md-12"><span class="keyword">{{keyword}}</span> {{text}}</div>
+				<!-- argument -->
+				{{#argument}}
+				<div class="container">
+					<div class="row">
+						<div class="col-md-1">&nbsp;</div>
+						<div class="col-md-11">
+							<table class="argument datatable">
+								<!-- rows -->
+								{{#rows}}
+								<tr>
+									{{#cells}}
+									<td>{{value}}</td>
+									{{/cells}}
+								</tr>
+								{{/rows}}
+								<!-- /rows -->
+							</table>
+						</div>
+					</div>
+				</div>
+				{{/argument}}
+				<!-- /argument -->
+			</div>
+			{{/steps}}
+		</div>
+		<!-- /Steps -->
+	</div>
+	<!-- Examples -->
+	{{#examples}}
+	<div class="card-block">
+		<h4 class="card-title">Examples:</h4>
+		<table>
+			<!-- Table header -->
+			{{#tableHeader}}
+			<tr>
+				{{#cells}}
+				<th>{{value}}</th>
+				{{/cells}}
+			</tr>
+			{{/tableHeader}}
+			<!-- /Table header -->
+			<!-- Table Body -->
+			{{#tableBody}}
+			<tr>
+				{{#cells}}
+				<td>{{value}}</td>
+				{{/cells}}
+			</tr>
+			{{/tableBody}}
+			<!-- /Table Body -->
+		</table>
+	</div>
+	{{/examples}}
+	<!-- /Examples -->
+</div>

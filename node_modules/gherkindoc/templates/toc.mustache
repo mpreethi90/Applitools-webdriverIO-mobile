@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Table of Contents</title>
+	{{>css}}
+</head>
+
+<body id="toc">
+<div class="container">
+		<h2>Features</h2>
+		{{>tocNode}}
+
+		<div id="tags">
+			<h2>Tags</h2>
+			<ul class="tags list-group">
+				{{#tags}}
+				<li class="list-group-item">
+				<span class="tag tag-default tag-pill float-xs-right">{{count}}</span>
+				<a href="tags/{{name}}.html" target="main">{{name}}</a></li>
+				{{/tags}}
+			</ul>
+
+		</div>
+</div>
+</body>
+
+</html>
