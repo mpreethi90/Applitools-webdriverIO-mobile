@@ -16,7 +16,8 @@
  const waitforTimeout = 2 * 60000;
  
  const tagParser = new TagExpressionParser();
- const stepsFolder = `./step-definitions`;
+ const stepsFolder = "./step-definitions";
+
  const steps = [];
  const config = require("./config.js");
  
@@ -144,6 +145,7 @@ eyes.setConfiguration(configuration);
          require: steps,
          tags: [],
          tagExpression: process.env.TAGS,
+         ignoreUndefinedDefinitions: true
      },
  
      /**
